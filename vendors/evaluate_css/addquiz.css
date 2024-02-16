@@ -1,0 +1,513 @@
+/* div.box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-left: 8px;
+} */
+
+span.section {
+  font-size: 30px;
+  color: #49b3e1;
+  padding-bottom: 10px;
+  font-weight: bold;
+
+}
+
+.space {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.btn-confirm {
+  /* สีพื้นหลัง */
+  background-color: #0ece3b;
+  /* สีตัวอักษร */
+  color: #fff;
+  /* ขอบ */
+  border: 1px solid #28a745;
+  /* ขอบเส้นโค้ง */
+  border-radius: 5px;
+  /* ขนาดตัวอักษร */
+  font-size: 18px;
+  font-weight: bold;
+  /* ขนาดของปุ่ม */
+  padding: 15px 20px;
+  /* การแสดงผลเมื่อ hover */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-confirm :hover {
+  /* สีพื้นหลังเมื่อโฮเวอร์ */
+  background-color: #218838;
+  /* สีตัวอักษรเมื่อโฮเวอร์ */
+  color: #fff;
+}
+
+.btn-confirm:disabled {
+  background-color: lightgray;
+  border: 1px solid #b3b3b3;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 60%;
+  background-color: #ffffff;
+  border: #49b3e1 solid 3px;
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+span.option {
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #49b3e1;
+
+}
+
+select {
+  height: 3vw;
+  width: 20vw;
+  font-size: 1.5vw;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #b9b9b9;
+}
+
+.date {
+  height: 3vw;
+  width: 20vw;
+  padding: 10px;
+  font-size: 1.5vw;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #b9b9b9;
+}
+
+.addquiz {
+  /* สีพื้นหลัง */
+  background-color: #0ebbce;
+  /* สีตัวอักษร */
+  color: #fff;
+  font-weight: bold;
+  /* ขอบ */
+  border: 1px solid #12a9ba;
+  /* ขอบเส้นโค้ง */
+  border-radius: 5px;
+  /* ขนาดตัวอักษร */
+  font-size: 1.5vw;
+  /* ขนาดของปุ่ม */
+  padding: 15px;
+  /* การแสดงผลเมื่อ hover */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.questionContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.quiz{
+  height: 3vw;
+  width: 20vw;
+font-size: 1.5vw;
+padding-left: 10px;
+border-radius: 5px;
+background-color: #ffffff;
+color: #b9b9b9;
+margin-right: 1.5vw;
+
+}
+.delquiz{
+display: inline-block;
+border-radius: 5px;
+width: 40px;
+height: 40px;
+font-size: 1vw;
+line-height: 40px;
+text-align: center;
+background-color: #ce0e0e; 
+color: white;
+border: none;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.o04 {
+  padding-right: 50px;
+}
+
+.o01 {
+  padding-right: 100px;
+}
+
+.name-box {
+  height: 3vw;
+  width: 20vw;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #b9b9b9;
+  }
+
+
+.message-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.btn-plus {
+  /* สีพื้นหลัง */
+  background-color: #0ece3b;
+  /* สีตัวอักษร */
+  color: #fff;
+  font-weight: bold;
+  /* ขอบ */
+  border: 1px solid #28a745;
+  /* ขอบเส้นโค้ง */
+  border-radius: 5px;
+  /* ขนาดตัวอักษร */
+  font-size: 18px;
+  /* ขนาดของปุ่ม */
+  padding: 15px 20px;
+  /* การแสดงผลเมื่อ hover */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn-plus:hover {
+  /* สีพื้นหลังเมื่อโฮเวอร์ */
+  background-color: #218838;
+  /* สีตัวอักษรเมื่อโฮเวอร์ */
+  color: #fff;
+}
+
+.btn-plus:disabled {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+}
+
+.btn-approve {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  padding-top: 50px;
+}
+
+.btn-cancle {
+  /* สีพื้นหลัง */
+  background-color: #ce0e0e;
+  /* สีตัวอักษร */
+  color: #fff;
+  font-weight: bold;
+  /* ขอบ */
+  border: 1px solid #a72828;
+  /* ขอบเส้นโค้ง */
+  border-radius: 5px;
+  /* ขนาดตัวอักษร */
+  font-size: 18px;
+  /* ขนาดของปุ่ม */
+  padding: 15px 20px;
+  /* การแสดงผลเมื่อ hover */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-cancle:hover {
+  /* สีพื้นหลังเมื่อโฮเวอร์ */
+  background-color: #882121;
+  /* สีตัวอักษรเมื่อโฮเวอร์ */
+  color: #fff;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+  div.box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 8px;
+  }
+
+  span.section {
+    font-size: 5vw;
+    color: #49b3e1;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .space {
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+
+  .btn-confirm {
+    /* สีพื้นหลัง */
+    background-color: #289c6c;
+    /* สีตัวอักษร */
+    color: #fff;
+    /* ขอบ */
+    border: 1px solid #289c6c;
+    /* ขอบเส้นโค้ง */
+    border-radius: 5px;
+    /* ขนาดตัวอักษร */
+    font-size: 30px;
+    font-weight: bold;
+    /* ขนาดของปุ่ม */
+    padding: 15px 20px;
+    /* การแสดงผลเมื่อ hover */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  .btn-confirm :hover {
+    /* สีพื้นหลังเมื่อโฮเวอร์ */
+    background-color: #218838;
+    /* สีตัวอักษรเมื่อโฮเวอร์ */
+    color: #fff;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    background-color: #ffffff;
+    border: #49b3e1 solid 3px;
+    border-radius: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .r1,.r2,.r3,.r4{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  span.option {
+    font-size: 4vw;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #49b3e1;
+
+  }
+
+  select {
+    height: 5vw;
+    width: 30vw;
+    font-size: 3vw;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #b9b9b9;
+    border: 1px solid #d4d4d4;
+  }
+
+  .date {
+    height: 5vw;
+    width: 30vw;
+    padding: 10px;
+    font-size: 3vw;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #b9b9b9;
+    border: 1px solid #d4d4d4;
+  }
+
+  .addquiz {
+    /* สีพื้นหลัง */
+    background-color: #49b3e1;
+    /* สีตัวอักษร */
+    color: #fff;
+    font-weight: bold;
+    /* ขอบ */
+    border: 1px solid #49b3e1;
+    /* ขอบเส้นโค้ง */
+    border-radius: 5px;
+    /* ขนาดตัวอักษร */
+    font-size: 30px;
+    /* ขนาดของปุ่ม */
+    padding: 15px;
+    /* การแสดงผลเมื่อ hover */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .questionContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+.quiz{
+  width: 40vw;
+  height: 5vw;
+  font-size: 3vw;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #b9b9b9;
+  margin-right: 1.5vw;
+  border: 1px solid #d4d4d4;
+
+}
+.delquiz{
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 100px;
+  height: 5vw;
+  font-size: 2vw;
+  line-height: 40px;
+  text-align: center;
+  background-color: #ce0e0e; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+  .name-box {
+    width: 30vw;
+    height: 5vw;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #b9b9b9;
+    border: 1px solid #d4d4d4;
+    padding: 5px;
+    font-size: 20px;
+    }
+
+  .message-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+
+  .btn-plus {
+    /* สีพื้นหลัง */
+    background-color: #289c6c;
+    /* สีตัวอักษร */
+    color: #fff;
+    font-weight: bold;
+    /* ขอบ */
+    border: 1px solid #289c6c;
+    /* ขอบเส้นโค้ง */
+    border-radius: 5px;
+    /* ขนาดตัวอักษร */
+    font-size: 18px;
+    /* ขนาดของปุ่ม */
+    padding: 15px 20px;
+    /* การแสดงผลเมื่อ hover */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .btn-plus:hover {
+    /* สีพื้นหลังเมื่อโฮเวอร์ */
+    background-color: #218838;
+    /* สีตัวอักษรเมื่อโฮเวอร์ */
+    color: #fff;
+  }
+
+  .btn-plus:disabled {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+  }
+
+  .btn-approve {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 50px;
+  }
+
+  .btn-cancle {
+    /* สีพื้นหลัง */
+    background-color: #ce0e0e;
+    /* สีตัวอักษร */
+    color: #fff;
+    font-weight: bold;
+    /* ขอบ */
+    border: 1px solid #a72828;
+    /* ขอบเส้นโค้ง */
+    border-radius: 5px;
+    /* ขนาดตัวอักษร */
+    font-size: 30px;
+    font-weight: bold;
+    /* ขนาดของปุ่ม */
+    padding: 15px 20px;
+    /* การแสดงผลเมื่อ hover */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 1px 1px 2px #00000080;
+  }
+
+  .btn-cancle:hover {
+    /* สีพื้นหลังเมื่อโฮเวอร์ */
+    background-color: #882121;
+    /* สีตัวอักษรเมื่อโฮเวอร์ */
+    color: #fff;
+  }
+
+  .error-message {
+    font-size: 30px;
+}
+
+option{
+  font-size: 10px !important;
+}
+
+}

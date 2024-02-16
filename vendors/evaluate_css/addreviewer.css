@@ -1,0 +1,344 @@
+div.section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 8px;      
+}
+
+span.section {
+    font-size: 40px;
+    color: #49b3e1;
+    padding-bottom: 10px;
+}
+.space{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+    width: 60%;
+    background-color: #ffffff;
+    border: #49b3e1 solid 3px;
+    border-radius: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+span.option{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #49b3e1;
+
+}
+.o01{
+    padding-right: 290px;
+}
+.o02{
+    padding-right: 250px;
+}
+.o03{
+    padding-right: 115px;
+}
+.o04{
+    padding-right: 240px;
+}
+.o05{
+    padding-right: 200px;
+}
+
+/* .serach_customer{
+    display: flex;
+    justify-content: space-between;
+} */
+
+select{
+    height: 60px;
+    width: 400px;
+    font-size: 27px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #b9b9b9;
+}
+
+
+.btn-approve{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 50px;
+    
+}
+.btn-confirm {
+    /* สีพื้นหลัง */
+    background-color: #0ece3b;
+    /* สีตัวอักษร */
+    color: #fff;
+    font-weight: bold;
+    /* ขอบ */
+    border: 1px solid #28a745;
+    /* ขอบเส้นโค้ง */
+    border-radius: 5px;
+    /* ขนาดตัวอักษร */
+    font-size: 20px;
+    /* ขนาดของปุ่ม */
+    padding: 15px 20px;
+    /* การแสดงผลเมื่อ hover */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn-confirm:hover {
+    /* สีพื้นหลังเมื่อโฮเวอร์ */
+    background-color: #218838;
+    
+    /* สีตัวอักษรเมื่อโฮเวอร์ */
+    color: #fff;
+  }
+  .btn-confirm:disabled{
+    background-color: lightgray;
+    border: 1px solid #b3b3b3;
+
+  }
+.btn-cancle {
+    /* สีพื้นหลัง */
+    background-color: #ce0e0e;
+    /* สีตัวอักษร */
+    color: #fff;
+    font-weight: bold;
+    /* ขอบ */
+    border: 1px solid #a72828;
+    /* ขอบเส้นโค้ง */
+    border-radius: 5px;
+    /* ขนาดตัวอักษร */
+    font-size: 20px;
+    /* ขนาดของปุ่ม */
+    padding: 15px 20px;
+    /* การแสดงผลเมื่อ hover */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn-cancle:hover {
+    /* สีพื้นหลังเมื่อโฮเวอร์ */
+    background-color: #882121;
+    /* สีตัวอักษรเมื่อโฮเวอร์ */
+    color: #fff;
+  }
+
+  .swal2-confirm {
+    font: 30px , #fff;
+    background-color: #289c6c !important; /* สีพื้นหลังปุ่ม */
+    border-color: #289c6c !important; /* สีเส้นขอบปุ่ม */
+}
+
+.swal2-confirm:hover {
+    background-color: #289c6c !important; /* สีพื้นหลังเมื่อ hover ที่ปุ่ม */
+    border-color: #289c6c !important; /* สีเส้นขอบเมื่อ hover ที่ปุ่ม */
+}
+
+  .swal2-cancel {
+    font: 30px , #fff;
+    background-color: #ce0e0e !important; /* สีพื้นหลังปุ่ม */
+    border-color: #ce0e0e !important; /* สีเส้นขอบปุ่ม */
+}
+
+.swal2-cancel:hover {
+    background-color: #882121 !important; /* สีพื้นหลังเมื่อ hover ที่ปุ่ม */
+    border-color: #882121 !important; /* สีเส้นขอบเมื่อ hover ที่ปุ่ม */
+}
+/* .serach_customer{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+div.section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 8px;      
+}
+span.section {
+    font-size: 5vw;
+    padding-top: 10px;
+    color: #49b3e1;
+    padding-bottom: 20px;
+}
+.space{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+    width: 90%;
+    background-color: #ffffff;
+    border: #49b3e1 solid 3px;
+    border-radius: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+span.option{
+    font-size: 4.5vw;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #49b3e1;
+
+}
+.o01{
+    padding-right: 400px;
+}
+.o02{
+    padding-right: 350px;
+}
+.o03{
+    padding-right: 160px;
+}
+.o04{
+    padding-right: 350px;
+}
+.o05{
+    padding-right: 290px;
+}
+select{
+    height: 10vw;
+    width: 60vw;
+    font-size: 3.5vw;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #b9b9b9;
+}
+
+.btn-approve{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 50px;
+}
+.btn-confirm {
+    /* สีพื้นหลัง */
+    background-color: #289c6c;
+    /* สีตัวอักษร */
+    color: #fff;
+    /* ขอบ */
+    border: 1px solid #289c6c;
+    /* ขอบเส้นโค้ง */
+    border-radius: 5px;
+    /* ขนาดตัวอักษร */
+    font-size: 30px;
+    /* ขนาดของปุ่ม */
+    padding: 15px 20px;
+    /* การแสดงผลเมื่อ hover */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+  
+  .btn-confirm :hover {
+    /* สีพื้นหลังเมื่อโฮเวอร์ */
+    background-color: #289c6c;
+    /* สีตัวอักษรเมื่อโฮเวอร์ */
+    color: #fff;
+    border: none;
+  }
+  .btn-confirm:disabled{
+    background-color: lightgray;
+    border: 1px solid #b3b3b3;
+    border: none;
+
+  }
+.btn-cancle {
+    /* สีพื้นหลัง */
+    background-color: #ce0e0e;
+    /* สีตัวอักษร */
+    color: #fff;
+    /* ขอบ */
+    border: 1px solid #a72828;
+    /* ขอบเส้นโค้ง */
+    border-radius: 5px;
+    /* ขนาดตัวอักษร */
+    font-size: 30px;
+    /* ขนาดของปุ่ม */
+    padding: 15px 20px;
+    /* การแสดงผลเมื่อ hover */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+  
+  .btn-cancle:hover {
+    /* สีพื้นหลังเมื่อโฮเวอร์ */
+    background-color: #882121;
+    /* สีตัวอักษรเมื่อโฮเวอร์ */
+    color: #fff;
+    border: none;
+  }
+
+  .swal2-confirm {
+    font: 30px , #fff;
+    background-color: #0ece3b !important; /* สีพื้นหลังปุ่ม */
+    border-color: #0ece3b !important; /* สีเส้นขอบปุ่ม */
+}
+
+.swal2-confirm:hover {
+    background-color: #218838 !important; /* สีพื้นหลังเมื่อ hover ที่ปุ่ม */
+    border-color: #218838 !important; /* สีเส้นขอบเมื่อ hover ที่ปุ่ม */
+}
+
+  .swal2-cancel {
+    font: 30px , #fff;
+    background-color: #ce0e0e !important; /* สีพื้นหลังปุ่ม */
+    border-color: #ce0e0e !important; /* สีเส้นขอบปุ่ม */
+}
+
+.swal2-cancel:hover {
+    background-color: #882121 !important; /* สีพื้นหลังเมื่อ hover ที่ปุ่ม */
+    border-color: #882121 !important; /* สีเส้นขอบเมื่อ hover ที่ปุ่ม */
+}
+
+
+
+
+
+
+}

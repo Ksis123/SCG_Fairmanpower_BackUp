@@ -1,0 +1,80 @@
+.bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #49b3e1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
+  
+  /* CSS */
+  .button-48 {
+    border-width: 0;
+    width: 100%;
+  }
+  .button-48:hover{
+    cursor: pointer;
+    
+  }
+  .nav-item {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    background-color: #49b3e1;
+     /* เพิ่มสีพื้นหลังที่ตรงกับสีพื้นหลังเริ่มต้น */
+  }
+  .nav-item.active {
+    background-color: #018cc8;
+  }
+
+  .icon{
+    height: 40px;
+  }
+
+  .iconpf{
+    height: 40px;
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .bottom-navigation {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #49b3e1;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 130px;
+    }
+    
+    /* CSS */
+    .button-48 {
+      border-width: 0;
+      width: 100%;
+    }
+    
+    .nav-item {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+      background-color: #49b3e1; /* เพิ่มสีพื้นหลังที่ตรงกับสีพื้นหลังเริ่มต้น */
+  }
+    .nav-item.active {
+      background-color: #018cc8;
+      border-radius: 20px;
+  
+    }
+  
+    .icon{
+      height: 70px;
+    }
+
+    .iconprofile{
+    height: 80px;
+  }
+
+  }

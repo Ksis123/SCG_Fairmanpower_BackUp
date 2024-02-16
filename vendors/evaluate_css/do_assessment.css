@@ -1,0 +1,97 @@
+
+ div.section{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+
+  }
+  .section {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  table {
+    border-collapse: collapse;
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.5), 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  tbody{
+    color: #616061;
+  }
+
+  form{
+    color: #616061;
+  }
+
+  th, td {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  th.t-small, td.t-small {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  th {    
+    color: white;
+    background-color: #71c5e9;
+    border: 1px solid #00638e;
+  }
+  
+  td {
+    border: 1px solid #00638e;
+  }
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  .radio{
+    height: 4vw;
+    width: 4vw;
+  }
+  .btn-submit{
+    margin-left: auto;
+    /* margin-left: 68vw; */
+    margin-right: 5%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .btn-doassessment {
+    /* สีพื้นหลัง */
+    background-color: #289c6c;
+    /* สีตัวอักษร */
+    color: #fff;
+    /* ขอบ */
+    border: 1px solid #289c6c;
+    /* ขอบเส้นโค้ง */
+    border-radius: 5px;
+    cursor: pointer;
+  
+    /* ขนาดตัวอักษร */
+    font-size: 18px;
+  
+    font-weight: bold;
+    /* ขนาดของปุ่ม */
+    padding: 10px 25px;
+    /* การแสดงผลเมื่อ hover */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  } 
+   .btn-doassessment:hover {
+    /* สีพื้นหลังเมื่อโฮเวอร์ */
+    background-color: #218838;
+    /* สีตัวอักษรเมื่อโฮเวอร์ */
+    color: #fff;
+  }
